@@ -6,3 +6,7 @@ CREATE TABLE Employees (
     LastName VARCHAR(50),
     HireDate DATE
 );
+INSERT INTO Employees (EmployeeID, FirstName, LastName, HireDate) VALUES
+(1, 'John', 'Doe', '2020-01-15'),
+(2, 'Jane', 'Smith', '2019-03-22'),
+(3, 'Emily', 'Johnson', '2021-07-30');
